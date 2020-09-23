@@ -163,6 +163,7 @@
     loop: false,
     items: 1,
     nav:true,
+    autoplayTimeout:5000 
   });
 
   // Init AOS
