@@ -1315,3 +1315,19 @@ section {
   height: 100px;
   border-radius: 50px;
 }
+.vbox-next {
+  display: none !important;
+}
+.vbox-previous {
+  display: none !important;
+}
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel button.owl-dot {
+  font-size: 30px;
+  margin: 10px;
+}
+
+.owl-carousel .owl-stage-outer {
+  max-height: 350px;
+}

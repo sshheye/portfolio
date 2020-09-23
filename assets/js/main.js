@@ -150,7 +150,8 @@
     // Initiate venobox (lightbox feature used in portofilo)
     $(document).ready(function() {
       $('.venobox').venobox({
-        'share': false
+        'share': false,
+        'arrowsColor':'#444444'
       });
     });
   });
@@ -159,8 +160,9 @@
   $(".portfolio-details-carousel").owlCarousel({
     autoplay: true,
     dots: true,
-    loop: true,
-    items: 1
+    loop: false,
+    items: 1,
+    nav:true,
   });
 
   // Init AOS
