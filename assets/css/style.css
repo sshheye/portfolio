@@ -1331,3 +1331,6 @@ section {
 .owl-carousel .owl-stage-outer {
   max-height: 350px;
 }
+.center-align {
+  text-align: center;
+}
