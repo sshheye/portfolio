@@ -985,9 +985,21 @@ section {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  background: rgba(34, 34, 34, 0.6);
+  /* background: rgba(34, 34, 34, 0.6); */
+  top: 0px;
+  box-shadow: 0 3.2px 7.2px 0 rgb(121 121 121 / 13%),
+    0 0.6px 1.8px 0 rgba(0, 0, 0, 0.108);
+  padding: 0 10px 30px 10px;
 }
-
+.portfolio-wrap h6 {
+  padding: 30px;
+}
+.img-fluidx {
+  height: 200px;
+}
+.portfolio-wrap {
+  height: 300px;
+}
 .portfolio .portfolio-wrap::before {
   content: "";
   background: rgba(34, 34, 34, 0.6);
