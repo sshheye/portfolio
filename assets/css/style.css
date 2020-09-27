@@ -991,8 +991,19 @@ section {
     0 0.6px 1.8px 0 rgba(0, 0, 0, 0.108);
   padding: 0 10px 30px 10px;
 }
+.card {
+  box-shadow: 0 3.2px 7.2px 0 rgb(121 121 121 / 13%),
+    0 0.6px 1.8px 0 rgba(0, 0, 0, 0.108);
+  padding: 0 10px 30px 10px;
+}
 .portfolio-wrap h6 {
   padding: 30px;
+}
+.card-wrap {
+  padding: 15px !important;
+}
+.card-wrap-head {
+  padding: 20px !important;
 }
 .img-fluidx {
   height: 200px;
